@@ -4,7 +4,7 @@
   <arg name="gazebo_gui" default="true"/>
   <arg name="urdf_path" default="$(find kuka_lbr_iiwa_support)/urdf/lbr_iiwa_14_r820.urdf"/>
 
-  <!-- startup simulated world -->
+  <!-- startup simulated world hiiii-->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="world_name" default="worlds/empty.world"/>
     <arg name="paused" value="$(arg paused)"/>
